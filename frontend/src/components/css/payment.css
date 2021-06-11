@@ -1,0 +1,67 @@
+.payment{
+    background-color: #DCEAF5;
+
+}
+
+.checkout__box{
+    width:100%;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    text-align: center;
+}
+
+.payment__container {
+    display: flex;
+}
+
+.payment__container .payment__section{
+   width:45%;
+   margin-left: 5%;
+   margin-top: 5vh;
+
+}
+
+.payment__container .payment__section .payment__title{
+    
+
+}
+
+
+.payment__container .payment__section  .payment__address{
+    padding-left: 5%;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    padding: 15px;
+}
+
+.payment__method{
+    border:1px solid red;
+    width:40%;
+    margin-left: 5%;
+    padding: 3%;
+    box-sizing: border-box;
+
+}
+
+
+.payment__container__2{
+    background-color: white;
+}
+
+
+.payment__container__2 .payment__product_review{
+        display: flex;
+      
+}
+
+
+
+.payment__container__2 .payment__product_review .payment__title{
+    width:20%;
+    margin-top: 5vh;
+}
+
+.payment__container__2 .payment__product_review .payment__product{
+    width:80%;
+    margin-top: 5vh;
+}

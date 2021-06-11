@@ -1,0 +1,162 @@
+.cartproduct{
+   
+    width: 100%;
+    
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+  
+    box-sizing: border-box;
+  
+}
+
+
+.cartproduct .cart_product_div_image{
+    text-align: center;
+    width:30%;
+   
+   
+}
+
+.cart_product_image{
+    width:50%;
+ 
+}
+.mid{
+   
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    margin-right: 5%;
+}
+
+
+
+.cart_product_price_add{
+    display: flex;
+    height: 20%;
+    margin-top: 20px;
+  
+}
+
+.cart_product_price_add p{
+
+    background-color: #F66A09;
+    width:70px;
+    height: 40px;
+    font-size: 14px;
+    margin-right: 5px;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+
+.cart_product_price_delete button{
+    border:none;
+    background-color: #0985F6;
+    width:100px;
+    height: 30px;
+    font-size: 14px;
+    margin-right: 2px;
+    margin-top: 20px;
+}
+
+.suggestions{
+    display: flex;
+    overflow-x: scroll;
+}
+
+
+.suggestions::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media only screen and (max-width:600px){
+    .cartproduct{
+   
+        width: 100%;
+        
+        background-color: white;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+      
+        box-sizing: border-box;
+      
+    }
+    
+    
+    .cartproduct .cart_product_div_image{
+        text-align: center;
+        width:50%;
+       
+       
+    }
+    
+    .cart_product_image{
+        width:50%;
+     
+    }
+    .mid{
+       
+        display: flex;
+        flex-direction: column;
+        width:45%;
+        margin-right: 5%;
+    }
+    
+    .description-cart{
+        display: none;
+    }
+    
+    .cart_product_price_add{
+       
+       
+        margin-left: 50%;
+        margin-top: 15px;
+      
+    }
+
+    
+    
+    .cart_product_price_add p{
+    
+        background-color: #F66A09;
+        width:70px;
+        height: 30px;
+        font-size: 14px;
+        margin-right: 5px;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    
+   
+    .cart_product_price_delete button{
+        border:none;
+        background-color: #0985F6;
+        width:80px;
+        height: 35px;
+        font-size: 14px;
+        margin-right: 2px;
+        margin-top: 20px;
+    }
+    
+    .suggestions{
+        display: flex;
+        overflow-x: scroll;
+    }
+    
+    
+    .suggestions::-webkit-scrollbar{
+        display: none;
+    }
+    
+
+
+}

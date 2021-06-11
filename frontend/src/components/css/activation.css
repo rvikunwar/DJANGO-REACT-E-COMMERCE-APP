@@ -1,0 +1,34 @@
+.container_verify{
+    margin-top: 35vh;
+    text-align: center;
+    color: #0A021D;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+}
+
+.btn_verify{
+    border:none;
+    background-color: #0985F6;
+    width:100px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+@media only screen and (max-width:500px) {
+
+    .container_verify{
+        margin-top: 35vh;
+        width: 100%;
+        text-align: center;
+        color: #0A021D;
+        text-transform: uppercase;
+        font-size: 12px;
+    
+       
+    }
+    
+    
+}

@@ -1,0 +1,63 @@
+.setting{
+    width:100px;
+    background-color: white;
+   
+    top:53px;
+    position: absolute;
+    right: 3px;
+    padding: 6px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.setting p{
+    cursor: pointer;
+}
+
+.line_3{
+   
+        border: none;
+        border-bottom:1px solid black;
+        opacity: 0.3;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    
+}
+
+@media only screen and (max-width:500px){
+
+    .setting{
+        width:100px;
+        background-color: white;
+       
+        top:90px;
+        position: absolute;
+        right: 3px;
+        padding: 6px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: rgba(0,0,0,0.2);
+    }
+    
+    .setting p{
+        cursor: pointer;
+    }
+    
+    .line_3{
+       
+            border: none;
+            border-bottom:1px solid black;
+            opacity: 0.3;
+            width: 99%;
+            margin-left: .5%;
+            margin-top: 5px;
+            margin-bottom: 2px;
+        
+    }
+
+}

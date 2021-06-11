@@ -1,0 +1,313 @@
+.registration{
+    width:58%;
+    position: absolute;
+    border-radius: 8px;
+    height:70vh;
+    top:19vh;
+    background-color: white;
+    left:21%;
+    display: flex;
+    position: fixed;
+    min-height: 450px;
+    overflow-y: scroll;
+
+}
+.register::-webkit-scrollbar{
+    display: none;
+}
+
+
+.register_part_1{
+   width:40%;
+   position: relative;
+  
+   padding: 10%;
+   padding-left: 5%;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+  
+
+}
+
+.register_part_1 .register_title{
+    z-index: 100000;
+    margin-left: 0px;
+    font-size: 23px;
+}
+
+.register_msg{
+    z-index: 100000;
+}
+
+.log_image{
+    width:350px;
+    height: 505px;
+    position:absolute;
+    top:0px;
+    left: 0px;
+}
+
+.register_logo{
+z-index: 100000;
+margin-top: 60px;
+margin-left: 20px;
+}
+.register_part_2{
+    background-color: rgba(0,0,0,0.1);
+    width:60%;
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.register_part_2 input{
+    width:100%;
+    margin-bottom: 30px;
+    background-color: transparent;
+    height: 30px;
+    border: none;
+    font-size: 1.1rem;
+    color: rgba(0,0,0,0.7);
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+.flname{
+    display: flex;
+}
+
+
+.register_part_2 input::placeholder{
+    font-size:18px;
+}
+
+
+.register_part_2 input:focus{
+    outline: none;
+}
+
+.register_button{
+    background-color: cadetblue;
+    width:120px;
+    cursor: pointer;
+    margin: 20px auto;
+    padding: 5px;
+    font-size:18px;
+    border:none;
+    margin-left: 0px;
+}
+
+.registration_link{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:800px) and (min-width:500px){
+    .registration{
+        width:80%;
+        position: absolute;
+        height:70vh;
+        top:19vh;
+        background-color: white;
+        left:10%;
+        display: flex;
+        position: fixed;
+    
+    }
+    
+    .register_part_1{
+       width:40%;
+       position: relative;
+      
+       padding: 10%;
+       padding-left: 5%;
+       box-sizing: border-box;
+       display: flex;
+       flex-direction: column;
+      
+    
+    }
+    
+    .register_part_1 .register_title{
+        z-index: 100000;
+        margin-left: 0px;
+        font-size: 23px;
+    }
+    
+    .register_msg{
+        z-index: 100000;
+    }
+    
+    .log_image_1{
+        width:100%;
+        height: 70vh;
+        position:absolute;
+        top:0px;
+        left: 0px;
+    }
+    
+    .register_logo{
+    z-index: 100000;
+    margin-top: 60px;
+    margin-left: 20px;
+    }
+    .register_part_2{
+        background-color: rgba(0,0,0,0.1);
+        width:60%;
+        padding: 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .register_part_2 input{
+        width:100%;
+        margin-bottom: 30px;
+        background-color: transparent;
+        height: 30px;
+        border: none;
+        font-size: 1.1rem;
+        color: rgba(0,0,0,0.7);
+        border-bottom: 1px solid rgba(0,0,0,0.4);
+    }
+    
+    .flname{
+        display: flex;
+    }
+    
+    
+    .register_part_2 input::placeholder{
+        font-size:18px;
+    }
+    
+    
+    .register_part_2 input:focus{
+        outline: none;
+    }
+    
+    .register_button{
+        background-color: cadetblue;
+        width:120px;
+        cursor: pointer;
+        margin: 20px auto;
+        padding: 5px;
+        font-size:18px;
+        border:none;
+        min-height: 40px;
+        border-radius: 5px;
+        margin-left: 0px;
+    }
+    
+    .registration_link{
+        cursor: pointer;
+    }   
+}
+
+
+@media only screen and (max-width:500px){
+
+    .registration{
+        width:80%;
+        position: absolute;
+        height:70vh;
+        top:13vh;
+        background-color: white;
+        left:10%;
+        display: flex;
+        position: fixed;
+    
+    }
+    
+    .register_part_1{
+       width:40%;
+       position: relative;
+    
+       padding: 10%;
+       padding-left: 5%;
+       box-sizing: border-box;
+       display: flex;
+       display: none;
+       flex-direction: column;
+      
+    
+    }
+    
+    .register_part_1 .register_title{
+        z-index: 100000;
+        margin-left: 0px;
+        font-size: 23px;
+    }
+    
+    .register_msg{
+        z-index: 100000;
+    }
+    
+    .log_image{
+        width:350px;
+        height: 505px;
+        position:absolute;
+        top:0px;
+        left: 0px;
+    }
+    
+    .register_logo{
+    z-index: 100000;
+    margin-top: 60px;
+    margin-left: 20px;
+    }
+    .register_part_2{
+        background-color: rgba(0,0,0,0.1);
+        width:100%;
+        padding: 7%;
+        padding-top: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .register_part_2 input{
+        width:100%;
+        margin-bottom: 30px;
+        background-color: transparent;
+        height: 30px;
+        border: none;
+        font-size: 1.1rem;
+        color: rgba(0,0,0,0.7);
+        border-bottom: 1px solid rgba(0,0,0,0.4);
+    }
+    
+    .flname{
+        display: flex;
+    }
+    
+    
+    .register_part_2 input::placeholder{
+        font-size:18px;
+    }
+    
+    
+    .register_part_2 input:focus{
+        outline: none;
+    }
+    
+    .register_button{
+        background-color: cadetblue;
+        width:120px;
+        cursor: pointer;
+        margin: 20px auto;
+        padding: 5px;
+        font-size:18px;
+        border:none;
+        margin-left: 0px;
+        min-height: 40px;
+        border-radius: 5px;
+    }
+    
+    .registration_link{
+        cursor: pointer;
+    }
+    
+}

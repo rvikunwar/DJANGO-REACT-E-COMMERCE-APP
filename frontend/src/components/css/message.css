@@ -1,0 +1,43 @@
+.message{
+    width:350px;
+   min-height: 40px;
+    position: fixed;
+    bottom: 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    left: 5px;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    box-sizing: border-box;
+    opacity: 1;
+    transition: 1.5s;
+  
+    
+}
+
+
+@media only screen and (max-width:500px){
+
+    .message{
+        width:250px;
+       min-height: 35px;
+       max-height: 40px;
+        position: fixed;
+        top: 7px;
+        font-size: 13px;
+        border-radius: 4px;
+        left: 5px;
+        text-align: center;
+        padding-top: 8px;
+        color: white;
+        box-sizing: border-box;
+        opacity: 1;
+        transition: 1.5s;
+      
+        
+    }
+    
+    
+
+}
